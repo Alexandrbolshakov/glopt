@@ -1,0 +1,28 @@
+@import 'base/variables';
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/advant';
+@import 'blocks/more';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/comments';

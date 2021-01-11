@@ -1,0 +1,24 @@
+.button{
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border-radius: 45px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    &:focus{
+        outline: none;
+    }
+    &-header-main{
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.35px;
+    }
+}

@@ -1,0 +1,126 @@
+.header{
+    min-height: 720px;
+    background: url('../assets/img/bg/flyer_bg.png') center center/cover no-repeat;
+    padding-top: 23px;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-tabs{
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-tab{
+            font-size: 15px;
+            font-weight: 400;
+            color: #ffffff;
+            &:hover{
+                color: #ec644b;;
+                text-decoration: underline;
+            }
+        }
+        &-questions{
+            color: #ffffff;
+            p{
+                font-size: 14px;
+                font-weight: 300;
+            }
+            a{
+                font-size: 19px;
+                font-weight: 700;
+                color: #ffffff;
+                &:hover{
+                    color: #ec644b;;
+                    text-decoration: underline;
+                }
+            }
+        }
+        &-divider{
+            width: 1px;
+            height: 23px;
+            background-color: #fff;
+            opacity: 0.4;
+        }
+    }
+    &__main{
+        padding-top: 47px;
+        &-title{
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+        }
+        &-subtitle{
+            margin-top: 26px;
+            color: $main-color;
+            font-size: 72px;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &-descr{
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        &-divider{
+            width: 809px;
+            height: 10px;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin-top: 38px;
+        }
+        &-line{
+            width: 380px;
+            height: 1px;
+            background-color: #fff;
+        }
+        &-circl{
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            background-color: #fff;
+        }
+        &-cards{
+            margin-top: 27px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+        &-icon{
+            img{
+                display: block;
+                margin: 0 auto;
+                width: 63px;height: 63px;
+            }
+
+        }
+        &-card{
+            max-width: 260px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            &-descr{
+                margin-top: 19px;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 22px;
+                text-align: center;
+            }
+        }
+        &-btn{
+            display: block;
+            margin: 39px auto 82px auto;
+        }
+    }
+}

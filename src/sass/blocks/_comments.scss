@@ -1,0 +1,77 @@
+.comments{
+    padding: 50px 0 65px 0;
+    &__header{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__divider{
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__subheader{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 17px;
+    }
+    &__slider{
+        margin-top: 30px;
+        position: relative;
+        &-photo{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &-name{
+            margin-top: 19px;
+            color: #3a3a3a;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-text{
+            margin: 0 auto;
+            width: 601px;
+            height: 108px;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22.01px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        &-prev{
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-120px);
+        }
+        &-next{
+            position: absolute;
+            top: 40px;
+            left: 50%;
+            transform: translateX(+100px);
+        }
+        &-card-prev, &-card-next{
+            display: block;
+            opacity: 0.3;
+            transform: scale(.6);
+            position: absolute;
+            top: 0;
+            left: -160px;
+        }
+        &-card-next{
+            left: 850px;
+        }
+    }
+}

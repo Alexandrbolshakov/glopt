@@ -1,0 +1,37 @@
+.agent{
+    min-height: 250px;
+    background: url('../assets/img/bg/agent_bg.png') center center/cover no-repeat;
+    padding: 58px 0 75px 0;
+    &__logo{
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 auto;
+        position: relative;
+        img{
+            display: block;
+            position: absolute;
+            top: 21px;
+            left: 27px;
+        }
+    }
+    &__header{
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+    }
+    &__descr{
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 984px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+    }
+}
