@@ -98,11 +98,14 @@ const modals = () => {
         });
     }
 
-    bindModal('.button-design', '.popup-design', '.popup-design .popup-close');
-    bindModal('.button-consultation', '.popup-consultation', '.popup-consultation .popup-close');
-    bindModal('.fixed-gift', '.popup-gift', '.popup-gift .popup-close', true);
-    openByScroll('.fixed-gift');
-    // showModalByTime('.popup-consultation', 5000);
+    bindModal('.header__main-btn', '.popup_request', '.popup_request .popup_close');
+    bindModal('.header__menu-button', '.popup_request', '.popup_request .popup_close');
+    // bindModal('.button-design', '.popup-design', '.popup-design .popup-close');
+    // bindModal('.button-consultation', '.popup-consultation', '.popup-consultation .popup-close');
+    // bindModal('.fixed-gift', '.popup-gift', '.popup-gift .popup-close', true);
+    // openByScroll('.fixed-gift');
+    // showModalByTime('.popup_request', 60000);
+    
 };
 
 export default modals;

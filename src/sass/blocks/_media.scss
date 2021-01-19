@@ -1,0 +1,295 @@
+@media (max-width: 1439px){
+    
+}
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .header{
+        &__menu{
+            flex-wrap: wrap;
+            justify-content: center;
+            &-logo{
+                margin-right: 10px;
+            }
+            &-questions{
+                margin-left: 10px;
+            }
+        }
+    }
+    .more{
+        min-height: 550px;
+        &__card{
+            width: 300px;
+            &-img{
+                width: 300px;
+                img{
+                    width: 300px;
+                }
+            }
+            &-descr{
+                width: 300px;
+            }
+        }
+    }
+    .price{
+        &__card{
+            width: 220px;
+        }
+    }
+    .comments{
+        &__slider{
+            &-card{
+                &-next{
+                    left: 750px;
+                }
+                &-prev{
+                    left: -50px;
+                }
+            }
+            &-text{
+                width: 500px;
+            }
+        }
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+    .header{
+        padding: 23px 0 40px 0;
+        &__menu-questions{
+            margin: 0 10px;
+        }
+        &__main{
+            &-divider{
+                width: 700px;
+            }
+            &-line{
+                width: 340px;
+            }
+            &-card{
+                max-width: 180px;
+            }
+        }
+    }
+    .advant{
+        min-height: 850px;
+        &__cards{
+            grid-template-rows: repeat(4, minmax(64px, 210px));
+            column-gap: 50px;
+        }
+    }
+    .more{
+        &__subtitle{
+            width: 100%;
+        }
+        &__card{
+            width: 230px;
+            &-img{
+                width: 100%;
+                height: 150px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-descr{
+                width: 100%;
+            }
+        }
+    }
+    .agent{
+        padding: 40px 0;
+        min-height: 220px;
+        &__descr{
+            width: 100%;
+        }
+    }
+    .price{
+        &__cards{
+            flex-wrap: wrap;
+        }
+        &__card{
+            width: 350px;
+            margin-top: 10px;
+        }
+        &__feedback{
+            &-form{
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 60px 0;
+                height: 210px;
+            }
+        }
+    }
+    .manager{
+        padding: 40px 0 40px 0;
+        min-height: 220px;
+        &__descr{
+            width: 100%;
+        }
+    }
+    .comments{
+        &__slider{
+            &-card{
+                &-next{
+                    left: 600px;
+                }
+                &-prev{
+                    left: -15px;
+                }
+            }
+            &-text{
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .header{
+        &__menu{
+            &-logo{
+                margin: 0;
+            }
+            &-tabs{
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+        &__main{
+            &-card{
+                max-width: 130px;
+            }
+            &-subtitle{
+                font-size: 50px;
+            }
+            &-descr{
+                font-size: 30px;
+            }
+            &-divider{
+                width: 520px;
+            }
+            &-line{
+                width: 250px;
+            }
+        }
+    }
+    .button-header-main{
+        width: 180px;
+        height: 50px;
+    }
+    .advant{
+        min-height: 950px;
+        &__cards{
+            column-gap: 10px;
+            row-gap: 10px;
+        }
+        &__card{
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            &-icon{
+                margin: 0 0 10px 0;
+            }
+            &-descr{
+                text-align: center;
+            }
+        }
+    }
+    .more{
+        &__cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__card{
+            width: 400px;
+            margin-bottom: 10px;
+            &-img{
+                height: 235px;
+            }
+        }
+    }
+    .price{
+        &__subheader{
+            width: 100%;
+        }
+        &__cards{
+            flex-direction: column;
+        }
+    }
+    .scheme__card{
+        width: 225px;
+    }
+    .comments{
+        &__subheader{
+            width: 520px;
+            margin: 17px auto 0 auto;
+        }
+        &__slider{
+            transform: scale(0.7);
+            &-card-next{
+                left: 420px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .header{
+        &__menu{
+            &-tabs{
+                flex-wrap: wrap;
+            }
+            &-logo{
+                img{
+                    width: 60px;
+                }
+            }
+        }
+        &__main{
+            &-title{
+                font-size: 20px;
+                margin: 0 auto;
+            }
+            &-subtitle{
+                font-size: 32px;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+            &-descr{
+                font-size: 26px;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+            &-divider{
+                width: 420px;
+            }
+            &-line{
+                width: 200px;
+            }
+            &-cards{
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            &-card{
+                max-width: 265px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .header__main-btn{
+        margin: 25px auto 0px;
+    }
+    .comments__slider-card-next{
+        left: 235px;
+    }
+}

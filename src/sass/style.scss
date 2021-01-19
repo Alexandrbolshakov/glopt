@@ -16,6 +16,10 @@ a{
     width: 1140px;
     margin: 0 auto;
 }
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: none;
+}
 
 @import 'blocks/header';
 @import 'blocks/button';
@@ -26,3 +30,5 @@ a{
 @import 'blocks/manager';
 @import 'blocks/scheme';
 @import 'blocks/comments';
+@import 'blocks/media';
+@import 'blocks/modal';

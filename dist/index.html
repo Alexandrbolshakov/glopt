@@ -4,13 +4,15 @@
 	<meta charset=UTF-8>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	<title>glopt</title>
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.css">
-	<link rel=stylesheet href=css/style.min.css>
+	<link rel=stylesheet href=assets/css/style.min.css>
 	<link rel="icon" href="data:;base64,=">
 </head>
 <body>
+
 	<section class="header">
 		<div class="container">
 			<div class="header__menu">
@@ -362,9 +364,9 @@
 		<div class="comments__divider"></div>
 		<div class="comments__subheader">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
 		<div class="comments__slider">
-			<a href="" class="comments__slider-prev"><img src="assets/img/icons/comments_prev.png" alt="prev"></a>
-			<a href="" class="comments__slider-next"><img src="assets/img/icons/comments_next.png" alt="next"></a>
-			<div class="comments__slider-card comments__slider-card-prev">
+			<a class="comments__slider-prev"><img src="assets/img/icons/comments_prev.png" alt="prev"></a>
+			<a class="comments__slider-next"><img src="assets/img/icons/comments_next.png" alt="next"></a>
+			<div class="comments__slider-card">
 				<div class="comments__slider-photo">
 					<img src="assets/img/photo/olga.png" alt="Olga">
 				</div>
@@ -375,19 +377,49 @@
 				<div class="comments__slider-photo">
 					<img src="assets/img/photo/olga.png" alt="Olga">
 				</div>
-				<div class="comments__slider-name">Анисимова Ольга</div>
+				<div class="comments__slider-name">Бнисимова Ольга</div>
 				<div class="comments__slider-text">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
 			</div>
-			<div class="comments__slider-card comments__slider-card-next">
+			<div class="comments__slider-card">
 				<div class="comments__slider-photo">
 					<img src="assets/img/photo/olga.png" alt="Olga">
 				</div>
-				<div class="comments__slider-name">Анисимова Ольга</div>
+				<div class="comments__slider-name">Снисимова Ольга</div>
+				<div class="comments__slider-text">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+			</div>
+			<div class="comments__slider-card">
+				<div class="comments__slider-photo">
+					<img src="assets/img/photo/olga.png" alt="Olga">
+				</div>
+				<div class="comments__slider-name">Снисимова Ольга</div>
+				<div class="comments__slider-text">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+			</div>
+			<div class="comments__slider-card">
+				<div class="comments__slider-photo">
+					<img src="assets/img/photo/olga.png" alt="Olga">
+				</div>
+				<div class="comments__slider-name">Снисимова Ольга</div>
 				<div class="comments__slider-text">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
 			</div>
 		</div>
 	</section>
-	
+    <div class="popup_request" data-modal>
+        <div class="popup_dialog">
+            <div class="popup_content text-center">
+                <button type="button" class="popup_close"><strong>&times;</strong></button>
+                <div class="popup_form">
+                    <form class="form" action="#">
+                      <h3>Отправьте заявку и наш менеджер свяжется с вами</h3>
+                      <input class="form-control form_input" name="user_name" required type="text" placeholder="Введите ваше имя">
+					  <input class="form-control form_input" name="user_phone" required type="text" placeholder="Введите телефон">
+   					  <!-- <textarea class="form-control form_textarea" name="text" required type="text" placeholder="Введите сообщение"> -->
+                      <button class="text-uppercase btn-block button" name="submit" type="submit">Отправить заявку</button>
+                      <p class="form_notice">Ваши данные конфиденциальны</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</div>
 	<script src="script.js"></script>
 </body>
 </html>

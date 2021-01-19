@@ -9,8 +9,9 @@ const rename = require("gulp-rename");
 const autoprefixer = require('gulp-autoprefixer');
 
 
-const dist = "./dist/";
+// const dist = "./dist/";
 // const dist = "C:/Users/Александр/Downloads/OSPanel/domains/pictures";
+const dist ="C:/projects/OSPanel/domains/glopt";
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")
@@ -62,13 +63,13 @@ gulp.task('styles', function() {
       .pipe(rename({suffix: '.min', prefix: ''}))
       .pipe(autoprefixer())
       .pipe(cleanCSS({compatibility: 'ie8'}))
-      .pipe(gulp.dest("dist/css"))
+      .pipe(gulp.dest( dist+"/assets/css"))
       .pipe(browsersync.stream());
 });
 
 gulp.task("watch", () => {
     browsersync.init({
-		server: "./dist/",
+		server: dist,
 		port: 4000,
 		notify: true
     });

@@ -1,7 +1,7 @@
 .header{
     min-height: 720px;
-    background: url('../assets/img/bg/flyer_bg.png') center center/cover no-repeat;
-    padding-top: 23px;
+    background: url(../img/bg/flyer_bg.png) center center/cover no-repeat;
+    padding: 23px 0 82px 0;
     &__menu{
         display: flex;
         justify-content: space-between;
@@ -16,7 +16,7 @@
             font-size: 15px;
             font-weight: 400;
             color: #ffffff;
-            &:hover{
+            &:hover, &:active, &:focus{
                 color: #ec644b;;
                 text-decoration: underline;
             }
@@ -120,7 +120,7 @@
         }
         &-btn{
             display: block;
-            margin: 39px auto 82px auto;
+            margin: 39px auto 0 auto;
         }
     }
 }
